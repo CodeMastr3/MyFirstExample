@@ -7,6 +7,6 @@ using std::cout;
 int main()
 {
     cout<<"Hi, please enter two numbers: ";
-
+    gatherPrint();
     return 0;
 }
