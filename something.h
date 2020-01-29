@@ -8,5 +8,5 @@ using std::cout;
 void gatherPrint() {
     int temp, temp1;
     cin >> temp >> temp1;
-    cout << temp << " " << temp1 << "\n Those are your 2 numbers.\n";
+    cout << temp << " + " << temp1 << " = " << temp + temp1 << "\nThose are your 2 numbers combined\n";
 }
