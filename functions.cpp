@@ -1,6 +1,11 @@
 #include "functions.h"
 
 Calc::Calc() {
+    first = 0;
+    second = 0;
+}
+
+void Calc::setNums() {
 
     cout << "Hi, please enter two numbers: ";
     cin >> first >> second;
@@ -26,6 +31,7 @@ Calc::Calc() {
 	    break;
 	default:
 	    cout << "That wasn't a proper choice\n";
+    }
 }
 
 double  Calc::add() {
@@ -49,6 +55,6 @@ double  Calc::getFirst() {
 }
 
 double  Calc::add() {
-    return sec;
+    return second;
 }
 

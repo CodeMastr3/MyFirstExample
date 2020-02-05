@@ -1,11 +1,11 @@
 #include <iostream>
-#include "something.h"
+#include "functions.h"
 
 using std::cin;
 using std::cout;
 
 int main()
 {
-    program = Calc();
+    Calc something; 
     return 0;
 }
