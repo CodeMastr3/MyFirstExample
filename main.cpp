@@ -6,6 +6,9 @@ using std::cout;
 
 int main()
 {
-    Calc something; 
+    Calculator instance; 
+    instance.setNums();
+
     return 0;
 }
+

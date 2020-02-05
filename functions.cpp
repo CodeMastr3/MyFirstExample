@@ -1,11 +1,11 @@
 #include "functions.h"
 
-Calc::Calc() {
+/*Calc::Calc() {
     first = 0;
     second = 0;
 }
-
-void Calc::setNums() {
+*/
+void Calculator::setNums() {
 
     cout << "Hi, please enter two numbers: ";
     cin >> first >> second;
@@ -34,27 +34,27 @@ void Calc::setNums() {
     }
 }
 
-double  Calc::add() {
+double  Calculator::add() {
     return getFirst() + getSec();
 }
 
-double  Calc::subtract() {
+double  Calculator::subtract() {
     return getFirst() - getSec();
 }
 
-double  Calc::multiply() {
+double  Calculator::multiply() {
     return getFirst() * getSec();
 }
 
-double  Calc::divide() {
+double  Calculator::divide() {
     return getFirst() / getSec();
 }
 
-double  Calc::getFirst() {
+double  Calculator::getFirst() {
     return first;
 }
 
-double  Calc::add() {
+double  Calculator::add() {
     return second;
 }
 

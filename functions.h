@@ -3,9 +3,9 @@
 
 #include <iostream>
 
-class Calc{
+class Calculator {
     public:
-	Calc();
+	//Calculator();
 	void setNums();
 	double add();
 	double subtract();
